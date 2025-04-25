@@ -118,3 +118,37 @@ button.login:hover {
 .register-link a:hover {
     text-decoration: underline;
 }
+
+
+/* RESPONSIVIDADE */
+@media (min-width:401px) and (max-width:500px) {
+    .container {
+        max-width: 346px;
+        padding: 20px 26px 26px;
+    }
+
+    .remember-forgot {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    button.login {
+        margin: 26px 0px 22px;
+    }
+}
+
+@media (max-width:400px) {
+    .container {
+        max-width: 260px;
+        padding: 14px 16px 16px;
+    }
+
+    .remember-forgot {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    button.login {
+        margin: 26px 0px 22px;
+    }
+}
