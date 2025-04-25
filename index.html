@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/styles/style.css">
     <title>Login form</title>
 </head>
 <body>
@@ -11,12 +12,26 @@
         <form action="" method="get">
             <h1>Login</h1>
             <div class="input-box">
-                <input type="email" placeholder="Usuário">
+                <input type="email" name="user" placeholder="Usuário">
                 <i class="bx bxs-user"></i>
             </div>
             <div class="input-box">
-                <input type="password" placeholder="Senha">
+                <input type="password" name="password" placeholder="Senha">
                 <i class="bx bxs-lock-alt"></i>
+            </div>
+
+            <div class="remember-forgot">
+                <label>
+                    <input type="checkbox">
+                    Lembrar minha senha
+                </label>
+                <a href="#">Esqueci minha senha</a>
+            </div>
+
+            <button type="submit">Login</button>
+
+            <div class="register-link">
+                <p>Não tem uma conta? <a href="#">Cadastre-se</a></p> 
             </div>
         </form>
     </main>
