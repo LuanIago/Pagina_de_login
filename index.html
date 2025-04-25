@@ -12,11 +12,11 @@
         <form action="" method="get">
             <h1>Login</h1>
             <div class="input-box">
-                <input type="email" name="user" placeholder="Usuário">
+                <input type="text" name="user" placeholder="Usuário" required autofocus>
                 <i class="bx bxs-user"></i>
             </div>
             <div class="input-box">
-                <input type="password" name="password" placeholder="Senha">
+                <input type="password" name="password" placeholder="Senha" required>
                 <i class="bx bxs-lock-alt"></i>
             </div>
 
@@ -25,10 +25,10 @@
                     <input type="checkbox">
                     Lembrar senha
                 </label>
-                <a href="#">Esqueci a senha</a>
+                <a href="#">Esqueceu a senha?</a>
             </div>
 
-            <button type="submit">Login</button>
+            <button type="submit" class="login">Login</button>
 
             <div class="register-link">
                 <p>Não tem uma conta? <a href="#">Cadastre-se</a></p> 
